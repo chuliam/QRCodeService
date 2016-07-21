@@ -1,5 +1,7 @@
 # QRCode Service
  I'm a web app, using the go language.
+ ![image](https://raw.githubusercontent.com/chuliam/QRCodeService/master/resource/demo.png)
+ 
 # Pre condition
 - vendor go tool
 - Go environment
