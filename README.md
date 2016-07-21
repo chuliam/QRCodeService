@@ -24,11 +24,10 @@ AppPort=8080 *Your application port*
 AppUri=http://localhost:8080 *Your application host & port*
 
 AppLogLevel=0 *log level*
-#0:debug 1:info 2:warn 3:error 4:panic 5:fatal 6:none
+//0:debug 1:info 2:warn 3:error 4:panic 5:fatal 6:none
 
 AppLogFileFormat=ByHour *log file name format*
-
-#ByDay:"2006-01-02",ByHour:"2006-01-02-15",ByMonth:"2006-01"
+//ByDay:"2006-01-02",ByHour:"2006-01-02-15",ByMonth:"2006-01"
 
 IndexFileUri=./index.html *index file url*
 
