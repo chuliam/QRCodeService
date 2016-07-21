@@ -1,6 +1,5 @@
 # QRCode Service
  I'm a web app, using the go language.
- 
 # Pre condition
 - vendor go tool
 - Go environment
@@ -14,30 +13,21 @@
 # About app.ini
 [QRCODE]
 
-AppName=QR.Code
-==*Your application name*==
+AppName=QR.Code *Your application name*
 
-AppVer=V1_release
-==*Your application version*==
+AppVer=V1_release *Your application version*
 
-AppPort=8080
-==*Your application port*==
+AppPort=8080 *Your application port*
 
-AppUri=http://localhost:8080 
-==*Your application host & port*==
+AppUri=http://localhost:8080 *Your application host & port*
 
-AppLogLevel=0 
-==*log level*
-==
+AppLogLevel=0 *log level*
 #0:debug 1:info 2:warn 3:error 4:panic 5:fatal 6:none
 
-AppLogFileFormat=ByHour 
-==*log file name format*==
+AppLogFileFormat=ByHour *log file name format*
 
 #ByDay:"2006-01-02",ByHour:"2006-01-02-15",ByMonth:"2006-01"
 
-IndexFileUri=./index.html 
-==*index file url*==
+IndexFileUri=./index.html *index file url*
 
-QRCodeSaveDir=./public/ 
-==*save qrcode png data dir*==
+QRCodeSaveDir=./public/ *save qrcode png data dir*
